@@ -522,6 +522,7 @@ input[type=number]::-webkit-outer-spin-button {
 .modal__confidentiality-link {
     text-decoration: underline;
     text-underline-offset: 3px;
+    color: #414140;
 }
 .fancybox-button svg {
     width: 16px;
