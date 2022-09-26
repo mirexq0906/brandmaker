@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <section class="section-crumbs">
+        <div class="container section-crumbs__container">
+            <a href="#" class="section-crumbs__link">Главная</a>
+            <span class="section-crumbs__arrow"></span>
+            <a href="#" class="section-crumbs__link">Кабинеты для руководителей</a>
+            <span class="section-crumbs__arrow"></span>
+            <a href="#" class="section-crumbs__link section-crumbs__link-active">Кабинет для руководителя GAMMA DIRECT</a>
+            <span class="section-crumbs__arrow"></span>
+        </div>
+    </section>
+    <section class="section-offices">
+        <div class="container section-offices__container">
+            <div class="section-offices__row section-offices__row-offces">
+                <div class="section-offices__column-left">
+                    <ul class="section-offices__list-office">
+                        <li class="section-offices__item-office">
+                            <img class="section-offices__item-image" src="images/photo1.jpg" alt="office 1">
+                            <div class="section-offices__item-tooltip" id="tooltip-one">
+                                <span class="marker section-offices__item-marker">1</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-tooltip" id="tooltip-two">
+                                <span class="marker section-offices__item-marker">2</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-tooltip" id="tooltip-three">
+                                <span class="marker section-offices__item-marker">3</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-tooltip" id="tooltip-four">
+                                <span class="marker section-offices__item-marker">4</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-tooltip" id="tooltip-five">
+                                <span class="marker section-offices__item-marker">5</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-tooltip" id="tooltip-six">
+                                <span class="marker section-offices__item-marker">6</span>
+                                <div class="section-offices__item-popup"></div>
+                            </div>
+                            <div class="section-offices__item-stock">
+                                <span class="section-offices__item-dot"></span>
+                                <span class="section-offices__item-status">В наличии</span>
+                            </div>
+                        </li>
+                        <li class="section-offices__item-office">
+                            <img class="section-offices__item-image" src="images/photo2.jpg" alt="office 2">
+                        </li>
+                        <li class="section-offices__item-office">
+                            <img class="section-offices__item-image" src="images/photo3.jpg" alt="office 3">
+                        </li>
+                        <li class="section-offices__item-office">
+                            <img class="section-offices__item-image" src="images/photo4.jpg" alt="office 4">
+                        </li>
+                    </ul>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/photo1.jpg" alt="office 1">
+                                <div class="section-offices__tooltip-swiper" id="tooltip-one">
+                                    <span class="marker section-offices__item-marker">1</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__tooltip-swiper" id="tooltip-two">
+                                    <span class="marker section-offices__item-marker">2</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__tooltip-swiper" id="tooltip-three">
+                                    <span class="marker section-offices__item-marker">3</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__tooltip-swiper" id="tooltip-four">
+                                    <span class="marker section-offices__item-marker">4</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__tooltip-swiper" id="tooltip-five">
+                                    <span class="marker section-offices__item-marker">5</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__tooltip-swiper" id="tooltip-six">
+                                    <span class="marker section-offices__item-marker">6</span>
+                                    <div class="section-offices__swiper-popup"></div>
+                                </div>
+                                <div class="section-offices__item-stock">
+                                    <span class="section-offices__item-dot"></span>
+                                    <span class="section-offices__item-status">В наличии</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/photo2.jpg" alt="office 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/photo3.jpg" alt="office 3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/photo4.jpg" alt="office 4">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="section-offices__column-right">
+                    <h2 class="section-offices__heading">GAMMA DIRECT</h2>
+                    <div class="section-offices__delivery">
+                        <img class="section-offices__delivery-icon" src="images/delivery.svg" alt="delivery">
+                        <span class="section-offices__delivery-description">Доставка и монтаж <span>Завтра после 12:00</span></span>
+                    </div>
+                    <a data-fancybox class="button section-offices__button" href="#btn-modal">Заказать бесплатный эскиз</a>
+                    <div class="section-offices__table-row">
+                        <table class="section-offices__table-calculate">
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">1</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="1">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">2</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="1">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">3</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="4">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">4</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="1">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">5</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="1">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="section-offices__cell-calculate">
+                                <td class="section-offices__cell-marker">
+                                    <span class="marker">6</span>
+                                </td>
+                                <td class="section-offices__cell-name"></td>
+                                <td class="section-offices__cell-price"></td>
+                                <td class="section-offices__cell-number">
+                                    <div class="section-offices__item-number">
+                                        <button class="section-offices__arrow-bottom" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                            <img src="/images/bottom-arrow.svg" alt="">
+                                        </button>
+                                        <input class="section-offices__item-input" type="number" min="0" max="99" value="10">
+                                        <button class="section-offices__arrow-top" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                            <img src="/images/top-arrow.svg" alt="">
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="section-offices__help">*Цены указаны за 1 шт</p>
+                    <div class="section-offices__total">
+                        <span class="section-offices__price">Цена за комплект от<span id="total-price">1 258 400 руб</span></span>
+                        <button class="section-offices__notification">Уведомить, если цена будет снижена</button>
+                    </div>
+                    <a data-fancybox class="button section-offices__button" href="#btn-modal">Отправить заявку</a>
+                    <div class="section-offices__questions">
+                        <span class="section-offices__questions-text">
+                            <img class="section-offices__questions-icon" src="images/questions.svg">
+                            Возникли вопросы? Звоните!
+                        </span>
+                        <span class="section-offices__questions-phone">+7 (938) 5000-541</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-offices__row">
+                <div class="section-offices__column-characteristic">
+                    <h3 class="section-offices__title">Характеристики</h3>
+                    <div class="section-offices__table-row">
+                        <table class="section-offices__table">
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Материал</td>
+                                <td class="section-offices__cell-meaning">МДФ</td>
+                            </tr>
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Страна производитель</td>
+                                <td class="section-offices__cell-meaning">Россия</td>
+                            </tr>
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Толщина столешницы</td>
+                                <td class="section-offices__cell-meaning">25 мм</td>
+                            </tr>
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Стиль</td>
+                                <td class="section-offices__cell-meaning">Современный</td>
+                            </tr>
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Цвет</td>
+                                <td class="section-offices__cell-meaning">Орех</td>
+                            </tr>
+                            <tr class="section-offices__cell">
+                                <td class="section-offices__cell-type">Здесь могут быть</td>
+                                <td class="section-offices__cell-meaning">любые характеристики</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="section-offices__column-description">
+                    <h3 class="section-offices__title">Описание</h3>
+                    <div class="section-offices__overflow">
+                        <p class="description section-offices__overflow-description">Мебель для кабинета руководителя «On.Top» создана специально для ценителей основательного подхода к бизнесу. Она олицетворяет оптимальное сочетание классического стиля с функциональностью и эргономичностью. В коллекции воплощены лучшие традиции классики, стильный дизайн и плавность линий. Всё это призвано подчеркнуть респектабельность обладателя кабинета.</p>
+                        <p class="description section-offices__overflow-description">Классический дизайн позволяет интегрировать кабинет «On.Top» практически в любой офисный интерьер. Двойная столешница, выполненная в сочетании благородных цветов «Рэд Фокс» и «венге», поддержана таким же исполнением шкафа, что придаёт кабинету гармоничный и основательный вид. Модельный ряд позволяет максимально учесть индивидуальные требования руководителя и подчеркнуть его статус. Округлые элементы стола и фурнитуры придают кабинету эргономичность.</p>
+                        <p class="description section-offices__overflow-description">Модельный ряд также предполагает оснащение мебелью конференц-залов и переговорных комнат.</p>
+                    </div>
+                    <span class="section-offices__overflow-link">Читать полностью</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="btn-modal">
+        <h2 class="modal__heading">Мы перезвоним Вам</h2>
+        <p class="description modal__description">и поможем определиться с комплектацией, размерами и цветом мебели. А так же бесплатно составим эскизный проект и рассчитаем точную стоимости и сроки.</p>
+        <label class="modal__phone">
+            <span class="modal__phone-label">+7</span>
+            <input type="tel" class="modal__phone-input" id="phone" placeholder="(999) 999-99-99">
+        </label>
+        <button class="button modal-button">Отправить заявку</button>
+        <span class="modal__confidentiality">Отправляя заявку вы соглашаетесь<br>с <a href="#" class="modal__confidentiality-link">политикой обработки персональной информации</a></span>
+    </div>
+    <script src="js/inputmask.js"></script>
+    <script>
+        var selector = document.getElementById('phone');
+        var im = new Inputmask("(999) 999-99-99");
+        im.mask(selector);
+    </script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        });
+    </script>
+</body>
+</html>
