@@ -61,7 +61,7 @@ img {
     background: #FFDA00;
     color: #414140;
     width: 100%;
-    padding: 18px 0;
+    padding: 19px 0;
     border: none;
     cursor: pointer;
     display: inline-block;
@@ -233,7 +233,8 @@ input[type=number]::-webkit-outer-spin-button {
     right: 0;
 }
 .section-offices__item-marker:hover + .section-offices__item-popup, .section-offices__item-marker:hover + .section-offices__swiper-popup{
-    z-index: 12;
+    position: absolute;
+    z-index: 15;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
@@ -301,8 +302,8 @@ input[type=number]::-webkit-outer-spin-button {
     background: #F5F7F9;
 }
 .section-offices__cell-calculate td {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 .section-offices__cell-marker {
     padding-left: 11px;
@@ -433,7 +434,7 @@ input[type=number]::-webkit-outer-spin-button {
     background: #F5F7F9;
 }
 .section-offices__cell td {
-    padding: 10px 10px 10px 32px
+    padding: 13px 10px 13px 32px
 }
 .section-offices__cell-type {
     font-size: 14px;
@@ -534,6 +535,9 @@ input[type=number]::-webkit-outer-spin-button {
     .swiper {
         display: block;
     }
+    .container__swiper {
+        margin: 0 -20px;
+    }
     /*section-crumbs*/
     .section-crumbs {
         padding-top: 15px;
@@ -567,7 +571,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .section-offices__column-left {
         max-width: none;
-        margin: 0 0 20px 0;
+        margin: 0 0px 20px 0px;
     }
     .section-offices__list-office {
         display: none;
@@ -576,31 +580,31 @@ input[type=number]::-webkit-outer-spin-button {
         display: none;
     }
     .section-offices__item-marker {
-        cursor: none;
+        cursor: auto;
     }
     #tooltip-one {
-        top: 44%;
-        left: 28%;
+        top: 45%;
+        left: 25%;
     }
     #tooltip-two {
         top: 50%;
         left: 62%;
     }
     #tooltip-three {
-        top: 31%;
-        left: 29%;
+        top: 32%;
+        left: 27%;
     }
     #tooltip-four {
-        top: 1%;
-        left: 13%;
+        top: 4%;
+        left: 11%;
     }
     #tooltip-five {
-        top: 27%;
-        left: 15%;
+        top: 28%;
+        left: 13%;
     }
     #tooltip-six {
         top: 37%;
-        left: 85%;
+        left: 87%;
     }
     .section-offices__item-stock {
         width: 90px;
@@ -672,6 +676,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .section-offices__table {
         margin-bottom: 55px;
+    }
+    .section-offices__cell td {
+        padding-left: 20px;
     }
     /*modal*/
     .modal {

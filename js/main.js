@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
     document.querySelectorAll('.section-offices__item-tooltip').forEach(function(tooltip, id) {
-        tooltip.querySelector('.section-offices__item-popup').innerHTML = products[id].name + '<span>' + products[id].price + ' руб</span>'
+        tooltip.querySelector('.section-offices__item-popup').innerHTML = products[id].name + '<span>' + products[id].price.toLocaleString() + ' руб</span>'
     })
     document.querySelector('.section-offices__overflow-link').addEventListener('click', function() {
         let overflow = document.querySelector('.section-offices__overflow')
